@@ -5059,15 +5059,11 @@ You're not viewing the latest version.
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># 以下命令安装 CUDA 12.6 版本的 PaddlePaddle，对于其他 CUDA 版本以及 CPU 版本，请参考 https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>paddlepaddle-gpu<span class="o">==</span><span class="m">3</span>.2.1<span class="w"> </span>-i<span class="w"> </span>https://www.paddlepaddle.org.cn/packages/stable/cu126/
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span><span class="s2">&quot;paddleocr[doc-parser]&quot;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># 对于 Linux 系统，请直接复制并执行以下命令，无需修改链接中的 cuda 版本：</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>https://paddle-whl.bj.bcebos.com/nightly/cu126/safetensors/safetensors-0.6.2.dev0-cp38-abi3-linux_x86_64.whl
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c1"># 对于Windows 系统，请直接复制并执行以下命令：</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>https://xly-devops.cdn.bcebos.com/safetensors-nightly/safetensors-0.6.2.dev0-cp38-abi3-win_amd64.whl
 </span></code></pre></div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>
-<strong>请注意安装 3.2.1 及以上版本的飞桨框架，同时安装特殊版本的 safetensors。</strong> 对于 macOS 用户，请使用 Docker 进行环境搭建。</p>
+<strong>请注意安装 3.2.1 及以上版本的飞桨框架。</strong> 对于 macOS 用户，请使用 Docker 进行环境搭建。</p>
 </div>
 <h2 id="2">2. 快速开始<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
 <p>此步骤主要介绍如何使用 PaddleOCR-VL，包括如何通过 CLI 命令行方式和 Python API 方式进行使用。</p>

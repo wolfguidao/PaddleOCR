@@ -5059,15 +5059,11 @@ For example, if you are using an RTX 50 series GPU that meets the device require
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># The following command installs the PaddlePaddle version for CUDA 12.6. For other CUDA versions and the CPU version, please refer to https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/develop/install/pip/linux-pip.html</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>paddlepaddle-gpu<span class="o">==</span><span class="m">3</span>.2.1<span class="w"> </span>-i<span class="w"> </span>https://www.paddlepaddle.org.cn/packages/stable/cu126/
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span><span class="s2">&quot;paddleocr[doc-parser]&quot;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># For Linux systems, please directly copy and execute the following commands without modifying the cuda version in the link:</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>https://paddle-whl.bj.bcebos.com/nightly/cu126/safetensors/safetensors-0.6.2.dev0-cp38-abi3-linux_x86_64.whl
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c1"># For Windows systems, directly copy and execute the following command:</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>https://xly-devops.cdn.bcebos.com/safetensors-nightly/safetensors-0.6.2.dev0-cp38-abi3-win_amd64.whl
 </span></code></pre></div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>
-<strong>Please ensure that you install PaddlePaddle framework version 3.2.1 or above, along with the special version of safetensors.</strong> For macOS users, please use Docker to set up the environment.</p>
+<strong>Please ensure that you install PaddlePaddle framework version 3.2.1 or above.</strong> For macOS users, please use Docker to set up the environment.</p>
 </div>
 <h2 id="2-quick-start">2. Quick Start<a class="headerlink" href="#2-quick-start" title="Permanent link">&para;</a></h2>
 <p>PaddleOCR-VL supports two usage methods: CLI command line and Python API. The CLI command line method is simpler and suitable for quickly verifying functionality, while the Python API method is more flexible and suitable for integration into existing projects.</p>
